@@ -71,7 +71,7 @@
 
             <asp:CheckBox ID="checkAll" runat="server" Font-Size="Large"/><asp:Label id="checkTextAll" runat="server" Font-Size="Large"></asp:Label><br /><br />
 
-            <label>กรอกเลข เพื่อค้นหาข้อมูล &nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <label>Input Number to Search &nbsp;&nbsp;</label>
             <input type="text" id="myInput" onkeyup="myFunction()"><br /><br />
 
             <asp:CheckBoxList ID="CheckBox1" runat="server" Border="1"
