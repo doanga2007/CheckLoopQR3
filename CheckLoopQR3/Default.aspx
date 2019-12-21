@@ -67,14 +67,14 @@
                 </div>
             </div>
 
+            <label>Input Number to Search &nbsp;&nbsp;</label>
+            <input type="text" id="myInput" onkeyup="myFunction()"><br />
+
             <asp:Button ID="btnSelect" runat="server" CssClass="btn btn-secondary" Text="Display Text" OnClick="btnSelect_Click" /><br /><br />
 
             <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
 
             <asp:CheckBox ID="checkAll" runat="server" Font-Size="Large"/><asp:Label id="checkTextAll" runat="server" Font-Size="Large"></asp:Label><br /><br />
-
-            <label>Input Number to Search &nbsp;&nbsp;</label>
-            <input type="text" id="myInput" onkeyup="myFunction()"><br /><br />
 
             <asp:CheckBoxList ID="CheckBox1" runat="server" Border="1"
             BorderColor="LightGray" Font-Size="Large"></asp:CheckBoxList>  
