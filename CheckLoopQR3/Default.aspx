@@ -19,14 +19,15 @@
     }
 </style>
 
-    <script type="text/javascript">
+<script type="text/javascript">
     $(window).load(function(){
     $("#checkAll").change(function () {
-    $("input:checkbox").prop('checked', $(this).prop("checked"));
+    $("input:checkbox:visible").prop('checked', $(this).prop("checked"));
     });
     });
-    </script>
-    <script>
+</script>
+
+<script>
         function myFunction() {
             var input, filter, table, tr, td, i, txtValue;
             input = document.getElementById("myInput");
@@ -45,7 +46,8 @@
                 }
             }
         }
-    </script>
+</script>
+
 </head>
 <body>
     <form id="form1" runat="server">
